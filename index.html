@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port Matching Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Match the Port Number to the Service</h1>
+    <div class="game-container">
+        <div class="ports">
+            <h2>Ports</h2>
+            <ul id="portList">
+                <li data-port="FTP">20/21</li>
+                <li data-port="SSH">22</li>
+                <li data-port="Telnet">23</li>
+                <li data-port="SMTP">25</li>
+                <li data-port="DNS">53</li>
+                <li data-port="DHCP">67/68</li>
+                <li data-port="HTTP">80</li>
+                <li data-port="POP3">110</li>
+                <li data-port="NetBIOS/NetBT">137/139</li>
+                <li data-port="IMAP">143</li>
+                <li data-port="SNMP">161/162</li>
+                <li data-port="LDAP">389</li>
+                <li data-port="HTTPS">443</li>
+                <li data-port="SMB/CIFS">445</li>
+                <li data-port="RDP">3389</li>
+            </ul>
+        </div>
+        <div class="services">
+            <h2>Services</h2>
+            <ul id="serviceList">
+                <li data-port="FTP">File Transfer Protocol (FTP) <span class="description"></span></li>
+                <li data-port="SSH">Secure Shell (SSH) <span class="description"></span></li>
+                <li data-port="Telnet">Telnet <span class="description"></span></li>
+                <li data-port="SMTP">Simple Mail Transfer Protocol (SMTP) <span class="description"></span></li>
+                <li data-port="DNS">Domain Name System (DNS) <span class="description"></span></li>
+                <li data-port="DHCP">Dynamic Host Configuration Protocol (DHCP) <span class="description"></span></li>
+                <li data-port="HTTP">Hypertext Transfer Protocol (HTTP) <span class="description"></span></li>
+                <li data-port="POP3">Post Office Protocol 3 (POP3) <span class="description"></span></li>
+                <li data-port="NetBIOS/NetBT">NetBIOS/NetBT <span class="description"></span></li>
+                <li data-port="IMAP">Internet Message Access Protocol (IMAP) <span class="description"></span></li>
+                <li data-port="SNMP">Simple Network Management Protocol (SNMP) <span class="description"></span></li>
+                <li data-port="LDAP">Lightweight Directory Access Protocol (LDAP) <span class="description"></span></li>
+                <li data-port="HTTPS">Hypertext Transfer Protocol Secure (HTTPS) <span class="description"></span></li>
+                <li data-port="SMB/CIFS">Server Message Block (SMB/CIFS) <span class="description"></span></li>
+                <li data-port="RDP">Remote Desktop Protocol (RDP) <span class="description"></span></li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

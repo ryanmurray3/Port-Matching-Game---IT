@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eff4bb;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.game-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #e0e0e0;
+}
+
+.description {
+    display: none;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.description.active {
+    display: block;
+    margin-top: 5px;
+}
+
+.locked {
+    pointer-events: none;
+    background-color: blue !important;
+}
+
