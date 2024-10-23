@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connectors</title>
+    <link rel="stylesheet" href="style2.css">
+  </head>
+  <body>
+    <h1>Connector Study Guide<table border="1">
+        <tr>
+          <th>Connector Type</th>
+          <th>Description</th>
+          <th>Common Uses</th>
+          <th>Image Space</th>
+        </tr>
+        <tr>
+          <td>Fiber Optic (SC)</td>
+          <td>Subscriber Connector (SC) - Uses a push-pull mechanism, commonly used in data centers and networks for high-speed data transmission.</td>
+          <td>High-speed data transmission in network and internet communications.</td>
+          <td><img src="images/SC-cable.png" id="imageId"><span class="enlarge-image" onclick="openModal('scImage')"><br>Click to Enlarge</span></td>
+        </tr>
+        <tr>
+          <td>Fiber Optic (LC)</td>
+          <td>Lucent Connector (LC) - A smaller version of the SC, used for high-density connections in data centers and enterprise applications.</td>
+          <td>High-density, high-speed connections in data centers and enterprise networks.</td>
+          <td><img src="images/LC-cable.png" id="imageId-1"><span class="enlarge-image" onclick="openModal('imageId-1')"><br>Click to Enlarge</span></td>
+        </tr>
+        <tr>
+          <td>F-Type</td>
+          <td>Used for coaxial cable connections, primarily in cable television and internet service connections.</td>
+          <td>Cable TV, broadband internet, and other coaxial cable applications.</td>
+          <td><img src="images/f-type.png"id="imageId-2"><span class="enlarge-image" onclick="openModal('imageId-2')"><br>Click to Enlarge</span></td>
+        </tr>
+        <tr>
+          <td>RJ-11</td>
+          <td>A small connector used for telephone connections and older modem connections, supports up to 4 wires.</td>
+          <td>Telephone line connections, older modems, and DSL connections.</td>
+          <td><img src="images/RJ-11 telephone.png" id="imageId-3"><span class="enlarge-image" onclick="openModal('imageId-3')"><br>Click to Enlarge</span></td>
+        </tr>
+        <tr>
+          <td>RJ-45</td>
+          <td>A larger connector used for Ethernet networking (Cat5e, Cat6), supports 8 wires and is commonly used in LAN setups.</td>
+          <td>Ethernet networking for local area networks (LANs), widely used in homes and businesses.</td>
+          <td><img src="images/RJ-45 network.png" id="imageId-4"><span class="enlarge-image" onclick="openModal('imageId-4')"><br>Click to Enlarge</span></td>
+        </tr>
+        <tr>
+          <td>BNC</td>
+          <td>Bayonet-Neill-Concelman (BNC) connector - Used with coaxial cables for radio, television, and other RF signals.</td>
+          <td>Used in radio, video, and RF signal transmission applications.</td>
+          <td><img src="images/BNC-MandF.png" id="imageId-5"><span class="enlarge-image" onclick="openModal('imageId-5')"><br>Click to Enlarge</span></td>
+        </tr>
+        <tr>
+          <td>USB Type-A</td>
+          <td>Standard rectangular USB connector found on many computers and devices, used for various peripherals (keyboards, mice, etc.).</td>
+          <td>Connecting a variety of peripherals like keyboards, mice, and external drives.</td>
+          <td><img src="images/USB-A.png" id="imageId-6"><span class="enlarge-image" onclick="openModal('imageId-6')"><br>Click to Enlarge</span></td>
+        </tr>
+        <tr>
+          <td>USB Type-C</td>
+          <td>Reversible connector used in modern smartphones, laptops, and other peripherals, capable of high-speed data transfer and charging.</td>
+          <td>Modern devices, including smartphones, laptops, and peripherals, for data transfer and power delivery.</td>
+          <td><img src="images/USB-C.png" id="imageId-7"><span class="enlarge-image" onclick="openModal('imageId-7')"><br>Click to Enlarge</span></td>
+        </tr>
+        <tr>
+          <td>USB 3.0</td>
+          <td>High-speed USB standard (with blue color coding), significantly faster than USB 2.0.</td>
+          <td>Used for devices that require faster data transfer, such as external hard drives and SSDs.</td>
+          <td><img src="images/USB-3.png" id="imageId-8"><span class="enlarge-image" onclick="openModal('imageId-8')"><br>Click to Enlarge</span></td>
+        </tr>
+        <tr>
+          <td>USB Micro</td>
+          <td>A smaller version of the USB connector, commonly used in older mobile devices.</td>
+          <td>Used for charging and data transfer in smartphones and other portable devices.</td>
+          <td><img src="images/USB-micro.png" id="imageId-9"><span class="enlarge-image" onclick="openModal('imageId-9')"><br>Click to Enlarge</span></td>
+        </tr>
+        <tr>
+          <td>USB Mini</td>
+          <td>An older, smaller USB connector used in digital cameras and some older portable devices.</td>
+          <td>Used for connecting small electronics like cameras and early smartphones.</td>
+          <td><img src="images/USB-mini.png" id="imageId-10"><span class="enlarge-image" onclick="openModal('imageId-10')"><br>Click to Enlarge</span></td>
+        </tr>
+        <tr>
+          <td>DVI (DVI-D, DVI-I, DVI-A)</td>
+          <td>Digital Visual Interface - Used for connecting displays to computers, available in digital, analog, and integrated versions.</td>
+          <td>Video display connections between computers and monitors or projectors.</td>
+          <td><img src="images/DVI-connector.png" id="imageId-11"><span class="enlarge-image" onclick="openModal('imageId-11')"><br>Click to Enlarge</span></td>
+        </tr>
+        <tr>
+          <td>VGA</td>
+          <td>Video Graphics Array - An analog standard used for connecting older monitors and projectors.</td>
+          <td>Video output to monitors and projectors, mainly older systems.</td>
+          <td><img src="images/VGA-cable.png" id="imageId-12"><span class="enlarge-image" onclick="openModal('imageId-12')"><br>Click to Enlarge</span></td>
+        </tr>
+        <tr>
+          <td>S-Video</td>
+          <td>Separate Video - An older video standard using separate signals for brightness and color.</td>
+          <td>Video output to older TVs, monitors, and video equipment.</td>
+          <td><img src="images/S-video.png" id="imageId-13"><span class="enlarge-image" onclick="openModal('imageId-13')"><br>Click to Enlarge</span></td>
+        </tr>
+        <tr>
+          <td>Molex</td>
+          <td>4-pin power connector used to power older internal components, such as optical drives and hard drives.</td>
+          <td>Power connection for internal devices like hard drives, optical drives, and fans.</td>
+          <td><img src="images/4-pin-molex.png" id="imageId-14a"><span class="enlarge-image" onclick="openModal('imageId-14a')"><br>Click to Enlarge</span>
+            <img src="images/8-pin-molex.png" id="imageId-14b"><span class="enlarge-image" onclick="openModal('imageId-14b')"><br>Click to Enlarge</span>
+            </td>
+        </tr>
+        <tr>
+          <td>SATA</td>
+          <td>Serial Advanced Technology Attachment - Used for connecting storage devices like hard drives and SSDs to the motherboard.</td>
+          <td>Connecting internal storage devices such as SSDs and HDDs.</td>
+          <td><img src="images/SATA-cable.png" id="imageId-15"><span class="enlarge-image" onclick="openModal('imageId-15')"><br>Click to Enlarge</span></td>
+        </tr>
+        <tr>
+          <td>CPU Power Connector (4-pin, 8-pin)</td>
+          <td>Connector that provides power directly to the CPU on the motherboard.</td>
+          <td>Powers the processor on the motherboard.</td>
+          <td><img src="images/CPU-8-pin.png" id="imageId-16"><span class="enlarge-image" onclick="openModal('imageId-16')"><br>Click to Enlarge</span></td>
+        </tr>
+        <tr>
+          <td>eSATA</td>
+          <td>External Serial Advanced Technology Attachment - Used for connecting external storage devices to the computer.</td>
+          <td>External connection for hard drives and SSDs, similar to SATA but used externally.</td>
+          <td><img src="images/E-SATA.png" id="imageId-17"><span class="enlarge-image" onclick="openModal('imageId-17')"><br>Click to Enlarge</span></td>
+        </tr>
+      </table>
+      <a href="index.html"><h2 style="text-align: left;"> <<< Go Back</h2></a> 
+
+      <!-- Modal for enlarging image -->
+<div id="imageModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImage">
+</div>
+
+<!-- Images (hidden by default) -->
+<img id="scImage" src="images/SC-cable.png" alt="Fiber Optic SC" style="display:none;">
+<img id="scImage" src="images/LC-cable.png" alt="Fiber Optic SC" style="display:none;">
+
+
+<!-- Add additional hidden images as needed -->
+  </body>
+  <script src="script2.js"></script>
+</html>
+
+
+
+
+
+
+
+
